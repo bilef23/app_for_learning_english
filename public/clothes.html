@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=SignikaNegative">
+    <title>Облека</title>
+    <script type="text/javascript" src="jss.js"></script>
+</head>
+<body>
+<div class="navigation">
+    <ul class="navList">
+        <li class="list ">
+            <a href="index.html">
+                <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                <span class="title">Почетна</span>
+            </a>
+        </li>
+        <li class="list">
+            <a href="courses.html" >
+                <span class="icon"><ion-icon name="book-outline"></ion-icon></span>
+                <span class="title" >Курсеви </span>
+                <ion-icon  id="special" name="chevron-down-outline">  </ion-icon>
+
+            </a>
+
+
+            <ul class="SubList">
+                <li class="Secondlist">
+                    <a href="animals.html">
+                        <span class="icon"><ion-icon name="paw-outline"></ion-icon></span>
+                        <span class="title">Животни</span>
+                    </a>
+                </li>
+                <li class="Secondlist">
+                    <a href="sport.html">
+                        <span class="icon"><ion-icon name="basketball-outline"></ion-icon></span>
+                        <span class="title">Спорт</span>
+                    </a>
+                </li>
+                <li class="Secondlist">
+                    <a href="school.html">
+                        <span class="icon"><ion-icon name="pencil-outline"></ion-icon></span>
+                        <span class="title">Училиште</span>
+                    </a>
+                </li>
+                <li class="Secondlist">
+                    <a href="food.html">
+                        <span class="icon"><ion-icon name="pizza-outline"></ion-icon></span>
+                        <span class="title">Храна</span>
+                    </a>
+                </li>
+                <li class="Secondlist">
+                    <a href="clothes.html">
+                        <span class="icon"><ion-icon name="shirt-outline"></ion-icon></span>
+                        <span class="title">Облека</span>
+                    </a>
+                </li>
+
+            </ul>
+        </li>
+        <li class="list">
+            <a href="help.html">
+                <span class="icon"><ion-icon name="help-outline"></ion-icon></span>
+                <span class="title">Помош</span>
+            </a>
+        </li>
+
+    </ul>
+</div>
+<section class="AlmostWholePage">
+    <div id="animalsWelcome">
+        <h1 id="click">Кликнете на картичките</h1>
+        <h1 id="warning">Напомена: по клик на првите 6 картички се појавува краток квиз,
+            додека по отварање на сите 15 картички ви се појавува квиз
+            за потврда на знаењето од дадената категорија
+        </h1>
+    </div>
+    <section class="FirstGroup">
+        <div class="cards">
+            <div class="card_inner" id="dog">
+                <div class="card_face card_face--front">
+                    <h1>Кликни</h1>
+                    <img src="pictures/T-shirt.png" class="card_pic">
+                </div>
+                <div class="card_face card_face--back">
+                    <div class="card_content">
+                        <h1 class="translation">Маица</h1>
+                        <h1 class="word">T-shirt</h1>
+                        <audio controls class="audio_card">
+                            <source src="audio/T-shirt.mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card_inner" id="cat">
+                <div class="card_face card_face--front">
+                    <h1>Кликни</h1>
+                    <img src="pictures/shirt.png" class="card_pic">
+                </div>
+                <div class="card_face card_face--back">
+                    <div class="card_content">
+                        <h1 class="translation">Кошула</h1>
+                        <h1 class="word">Shirt</h1>
+                        <audio controls class="audio_card">
+                            <source src="audio/shirt.mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card_inner" id="pig">
+                <div class="card_face card_face--front">
+                    <h1>Кликни</h1>
+                    <img src="pictures/skirt.png" class="card_pic">
+                </div>
+                <div class="card_face card_face--back">
+                    <div class="card_content">
+                        <h1 class="translation">Здолниште</h1>
+                        <h1 class="word">Skirt</h1>
+                        <audio controls class="audio_card">
+                            <source src="audio/skirt.mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="SecondGroup">
+        <div class="cards">
+            <div class="card_inner" id="bear">
+                <div class="card_face card_face--front">
+                    <h1>Кликни</h1>
+                    <img src="pictures/blouse.png" class="card_pic">
+                </div>
+                <div class="card_face card_face--back">
+                    <div class="card_content">
+                        <h1 class="translation">Блуза</h1>
+                        <h1 class="word">Blouse</h1>
+                        <audio controls class="audio_card">
+                            <source src="audio/blouse.mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card_inner" id="wolf">
+                <div class="card_face card_face--front">
+                    <h1>Кликни</h1>
+                    <img src="pictures/hoodie.png" class="card_pic" id="WolfImg">
+                </div>
+                <div class="card_face card_face--back">
+                    <div class="card_content">
+                        <h1 class="translation">Дуксер</h1>
+                        <h1 class="word">Hoodie</h1>
+                        <audio controls class="audio_card">
+                            <source class="audio_card" src="audio/hoodie.mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card_inner" id="fox">
+                <div class="card_face card_face--front">
+                    <h1>Кликни</h1>
+                    <img src="pictures/jacket.png" class="card_pic" id="foxImg">
+                </div>
+                <div class="card_face card_face--back">
+                    <div class="card_content">
+                        <h1 class="translation">Јакна</h1>
+                        <h1 class="word">Jacket</h1>
+                        <audio controls class="audio_card">
+                            <source src="audio/jacket.mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="ThirdGroup">
+        <div class="cards">
+            <div class="card_inner" id="horse">
+                <div class="card_face card_face--front">
+                    <h1>Кликни</h1>
+                    <img src="pictures/dress.png" class="card_pic">
+                </div>
+                <div class="card_face card_face--back">
+                    <div class="card_content">
+                        <h1 class="translation">Фустан</h1>
+                        <h1 class="word">Dress</h1>
+                        <audio controls class="audio_card">
+                            <source src="audio/dress.mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card_inner" id="donkey">
+                <div class="card_face card_face--front">
+                    <h1>Кликни</h1>
+                    <img src="pictures/suit.png" class="card_pic" id="suit">
+                </div>
+                <div class="card_face card_face--back">
+                    <div class="card_content">
+                        <h1 class="translation">Koстим</h1>
+                        <h1 class="word">Suit</h1>
+                        <audio controls class="audio_card">
+                            <source src="audio/suit.mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card_inner" id="goat">
+                <div class="card_face card_face--front">
+                    <h1>Кликни</h1>
+                    <img src="pictures/coat.png" class="card_pic">
+                </div>
+                <div class="card_face card_face--back">
+                    <div class="card_content">
+                        <h1 class="translation">Мантил</h1>
+                        <h1 class="word">Coat</h1>
+                        <audio controls class="audio_card">
+                            <source src="audio/coat.mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="FourthGroup">
+        <div class="cards">
+            <div class="card_inner" id="duck">
+                <div class="card_face card_face--front">
+                    <h1>Кликни</h1>
+                    <img src="pictures/jeans.png" class="card_pic">
+                </div>
+                <div class="card_face card_face--back">
+                    <div class="card_content">
+                        <h1 class="translation">Фармерки</h1>
+                        <h1 class="word">Jeans</h1>
+                        <audio controls class="audio_card">
+                            <source src="audio/jeans.mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card_inner" id="turkey">
+                <div class="card_face card_face--front">
+                    <h1>Кликни</h1>
+                    <img src="pictures/tracksuit.png" class="card_pic" id="tracksuit">
+                </div>
+                <div class="card_face card_face--back">
+                    <div class="card_content">
+                        <h1 class="translation">Тренерки</h1>
+                        <h1 class="word">Tracksuit</h1>
+                        <audio controls class="audio_card">
+                            <source src="audio/tracksuit.mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card_inner" id="chicken">
+                <div class="card_face card_face--front">
+                    <h1>Кликни</h1>
+                    <img src="pictures/shorts.png" class="card_pic">
+                </div>
+                <div class="card_face card_face--back">
+                    <div class="card_content">
+                        <h1 class="translation">Шорцеви</h1>
+                        <h1 class="word">Shorts</h1>
+                        <audio controls class="audio_card">
+                            <source src="audio/shorts.mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="FivethGroup">
+        <div class="cards">
+            <div class="card_inner" id="cow">
+                <div class="card_face card_face--front">
+                    <h1>Кликни</h1>
+                    <img src="pictures/socks.png" class="card_pic">
+                </div>
+                <div class="card_face card_face--back">
+                    <div class="card_content">
+                        <h1 class="translation">Чорапи</h1>
+                        <h1 class="word">Socks</h1>
+                        <audio controls class="audio_card">
+                            <source src="audio/socks.mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card_inner" id="monkey">
+                <div class="card_face card_face--front">
+                    <h1>Кликни</h1>
+                    <img src="pictures/gloves.png" class="card_pic">
+                </div>
+                <div class="card_face card_face--back">
+                    <div class="card_content">
+                        <h1 class="translation">Ракавици</h1>
+                        <h1 class="word">Gloves</h1>
+                        <audio controls class="audio_card">
+                            <source src="gloves/monkey.mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card_inner" id="turtle">
+                <div class="card_face card_face--front">
+                    <h1>Кликни</h1>
+                    <img src="pictures/scarf.png "  class="card_pic" id="TurtleImg">
+                </div>
+                <div class="card_face card_face--back">
+                    <div class="card_content">
+                        <h1 class="translation">Шал</h1>
+                        <h1 class="word">Scarf</h1>
+                        <audio controls class="audio_card">
+                            <source src="audio/scarf.mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+
+<div class="questionKnowledge">
+    <h1>Дали добро ги запомнивте поимите?</h1>
+    <button class="yes" onclick="yesEvent()">Да</button>
+    <button class="no" onclick="noEvent()">Не</button>
+</div>
+
+<section class="quiz">
+    <div class="rules">
+        <div class="ruleTitle"><h1 >Правила за квизот:</h1></div>
+        <h1>1. Ќе имате само <span>15 секунди </span> за секое прашање.</h1>
+        <h1>2. Кога ќе го одберете одговорот, не можете да се премислите.</h1>
+        <h1>3. Не можете да го исклучите квизот и да се вратите назад.</h1>
+        <h1>4.Поените ќе ги добиете врз база на точните одговори.</h1>
+        <button class="start" onclick="startQuiz()">Започни</button>
+        <button class="back" onclick="turnBack()">Врати се назад</button>
+    </div>
+</section>
+<section class="Finalquiz">
+    <div class="rules">
+        <h1 class="ruleTitle">Правила за квизот:</h1>
+        <h1>1. Ќе имате само <span>15 секунди </span> за секое прашање.</h1>
+        <h1>2. Кога ќе го одберете одговорот, не можете да се премислите.</h1>
+        <h1>3. Не можете да го исклучите квизот и да се вратите назад.</h1>
+        <h1>4.Поените ќе ги добиете врз база на точните одговори.</h1>
+        <button class="start" onclick="startQuiz()">Започни</button>
+        <button class="back" onclick="turnBack()">Врати се назад</button>
+    </div>
+</section>
+
+<section class="miniQuiz" id="firstQuest">
+    <div class="questions">
+        <header>
+            <div class="questionQuiz"><!--<span>Преведи на македонски: dog</span>--></div>
+            <div class="timer">
+                <div class="timerText">Преостанато време</div>
+                <div class="timerSec">15</div>
+            </div>
+        </header>
+        <section>
+            <div class="optionList">
+                <!-- <div class="option">
+                   <span>Мачка</span>
+                   <div class="icon cross"><ion-icon name="close"></ion-icon></div>
+
+                 </div>
+               </div>
+               <div class="optionList">
+                 <div class="option">
+                   <span>Куче</span>
+                   <div class="icon tick"><ion-icon name="checkmark"></ion-icon></div>
+                 </div>
+               </div>
+               <div class="optionList">
+                 <div class="option">
+                   <span>Meчка</span>
+                 </div>
+               </div>
+               <div class="optionList">
+                 <div class="option">
+                   <span>Прасе</span>
+                 </div>
+                  -->
+            </div>
+
+        </section>
+        <footer>
+            <div class="totalQuestions">
+                <span><p>1</p>oд<p>3</p> Прашања </span>
+            </div>
+            <button class="nextQuestion" >Следно прашање</button>
+        </footer>
+    </div>
+</section>
+
+
+<section class="results">
+    <div class="header">
+        <img src="pictures/gameOver.png">
+    </div>
+    <div class="bodyBox">
+        <div class="totalPoints"> Честитки на освоените  <span>1</span>/3 поени</div>
+        <button onclick="BackToCourse()" >Врати се на курсот</button>
+    </div>
+</section>
+<script  type="text/javascript" src="main.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>

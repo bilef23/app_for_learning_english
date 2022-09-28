@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=SignikaNegative">
+    <title>Спорт</title>
+</head>
+<body>
+<div class="navigation">
+    <ul class="navList">
+        <li class="list ">
+            <a href="index.html">
+                <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                <span class="title">Почетна</span>
+            </a>
+        </li>
+        <li class="list">
+            <a href="courses.html" >
+                <span class="icon"><ion-icon name="book-outline"></ion-icon></span>
+                <span class="title" >Курсеви </span>
+                <ion-icon  id="special" name="chevron-down-outline">  </ion-icon>
+
+            </a>
+
+
+            <ul class="SubList">
+                <li class="Secondlist">
+                    <a href="animals.html">
+                        <span class="icon"><ion-icon name="paw-outline"></ion-icon></span>
+                        <span class="title">Животни</span>
+                    </a>
+                </li>
+                <li class="Secondlist">
+                    <a href="sport.html">
+                        <span class="icon"><ion-icon name="basketball-outline"></ion-icon></span>
+                        <span class="title">Спорт</span>
+                    </a>
+                </li>
+                <li class="Secondlist">
+                    <a href="school.html">
+                        <span class="icon"><ion-icon name="pencil-outline"></ion-icon></span>
+                        <span class="title">Училиште</span>
+                    </a>
+                </li>
+                <li class="Secondlist">
+                    <a href="food.html">
+                        <span class="icon"><ion-icon name="pizza-outline"></ion-icon></span>
+                        <span class="title">Храна</span>
+                    </a>
+                </li>
+                <li class="Secondlist">
+                    <a href="clothes.html">
+                        <span class="icon"><ion-icon name="shirt-outline"></ion-icon></span>
+                        <span class="title">Облека</span>
+                    </a>
+                </li>
+
+            </ul>
+        </li>
+        <li class="list">
+            <a href="help.html">
+                <span class="icon"><ion-icon name="pencil-outline"></ion-icon></span>
+                <span class="title">Помош</span>
+            </a>
+        </li>
+
+    </ul>
+</div>
+<section class="AlmostWholePage">
+    <div id="animalsWelcome">
+        <h1 id="click">Кликнете на картичките</h1>
+        <h1 id="warning">Напомена: по клик на првите 6 картички се појавува краток квиз,
+            додека по отварање на сите 15 картички ви се појавува квиз
+            за потврда на знаењето од дадената категорија
+        </h1>
+    </div>
+    <section class="FirstGroup">
+        <div class="cards">
+            <div class="card_inner" id="dog">
+                <div class="card_face card_face--front">
+                    <h1>Кликни</h1>
+                    <img src="pictures/basketball.png" class="card_pic">
+                </div>
+                <div class="card_face card_face--back">
+                    <div class="card_content">
+                        <h1 class="translation">Кошарка</h1>
+                        <h1 class="word">Basketball</h1>
+                        <audio controls class="audio_card">
+                            <source src="audio/Basketball.mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card_inner" id="cat">
+                <div class="card_face card_face--front">
+                    <h1>Кликни</h1>
+                    <img src="pictures/football.png" class="card_pic">
+                </div>
+                <div class="card_face card_face--back">
+                    <div class="card_content">
+                        <h1 class="translation">Фудбал</h1>
+                        <h1 class="word">Soccer</h1>
+                        <audio controls class="audio_card">
+                            <source src="audio/Soccer.mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card_inner" id="pig">
+                <div class="card_face card_face--front">
+                    <h1>Кликни</h1>
+                    <img src="pictures/volleyball.png" class="card_pic">
+                </div>
+                <div class="card_face card_face--back">
+                    <div class="card_content">
+                        <h1 class="translation">Одбојка</h1>
+                        <h1 class="word">Volleyball</h1>
+                        <audio controls class="audio_card">
+                            <source src="audio/volleyball.mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="SecondGroup">
+        <div class="cards">
+            <div class="card_inner" id="bear">
+                <div class="card_face card_face--front">
+                    <h1>Кликни</h1>
+                    <img src="pictures/bowling.png" class="card_pic">
+                </div>
+                <div class="card_face card_face--back">
+                    <div class="card_content">
+                        <h1 class="translation">Куглање</h1>
+                        <h1 class="word">Bowling</h1>
+                        <audio controls class="audio_card">
+                            <source src="audio/bowling.mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card_inner" id="wolf">
+                <div class="card_face card_face--front">
+                    <h1>Кликни</h1>
+                    <img src="pictures/rugby.png" class="card_pic" >
+                </div>
+                <div class="card_face card_face--back">
+                    <div class="card_content">
+                        <h1 class="translation">Рагби</h1>
+                        <h1 class="word">Rugby</h1>
+                        <audio controls class="audio_card">
+                            <source class="audio_card" src="audio/rugby.mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card_inner" id="fox">
+                <div class="card_face card_face--front">
+                    <h1>Кликни</h1>
+                    <img src="pictures/cricket.png" class="card_pic" id="foxImg">
+                </div>
+                <div class="card_face card_face--back">
+                    <div class="card_content">
+                        <h1 class="translation">Крикет</h1>
+                        <h1 class="word">Cricket</h1>
+                        <audio controls class="audio_card">
+                            <source src="audio/cricket.mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="ThirdGroup">
+        <div class="cards">
+            <div class="card_inner" id="horse">
+                <div class="card_face card_face--front">
+                    <h1>Кликни</h1>
+                    <img src="pictures/tennis.png" class="card_pic">
+                </div>
+                <div class="card_face card_face--back">
+                    <div class="card_content">
+                        <h1 class="translation">Тенис</h1>
+                        <h1 class="word">Tennis</h1>
+                        <audio controls class="audio_card">
+                            <source src="audio/tennis.mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card_inner" id="donkey">
+                <div class="card_face card_face--front">
+                    <h1>Кликни</h1>
+                    <img src="pictures/golf.png" class="card_pic">
+                </div>
+                <div class="card_face card_face--back">
+                    <div class="card_content">
+                        <h1 class="translation">Голф</h1>
+                        <h1 class="word">Golf</h1>
+                        <audio controls class="audio_card">
+                            <source src="audio/golf.mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card_inner" id="goat">
+                <div class="card_face card_face--front">
+                    <h1>Кликни</h1>
+                    <img src="pictures/hockey.png" class="card_pic">
+                </div>
+                <div class="card_face card_face--back">
+                    <div class="card_content">
+                        <h1 class="translation">Хокеј</h1>
+                        <h1 class="word">Hockey</h1>
+                        <audio controls class="audio_card">
+                            <source src="audio/hockey.mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="FourthGroup">
+        <div class="cards">
+            <div class="card_inner" id="duck">
+                <div class="card_face card_face--front">
+                    <h1>Кликни</h1>
+                    <img src="pictures/cycling.png" class="card_pic">
+                </div>
+                <div class="card_face card_face--back">
+                    <div class="card_content">
+                        <h1 class="translation">Возење велосипед</h1>
+                        <h1 class="word">Cycling</h1>
+                        <audio controls class="audio_card">
+                            <source src="audio/cycling.mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card_inner" id="turkey">
+                <div class="card_face card_face--front">
+                    <h1>Кликни</h1>
+                    <img src="pictures/running.png" class="card_pic">
+                </div>
+                <div class="card_face card_face--back">
+                    <div class="card_content">
+                        <h1 class="translation">Трчање</h1>
+                        <h1 class="word">Running</h1>
+                        <audio controls class="audio_card">
+                            <source src="audio/running.mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card_inner" id="chicken">
+                <div class="card_face card_face--front">
+                    <h1>Кликни</h1>
+                    <img src="pictures/wrestling.png" class="card_pic">
+                </div>
+                <div class="card_face card_face--back">
+                    <div class="card_content">
+                        <h1 class="translation">Борење</h1>
+                        <h1 class="word">Wrestling</h1>
+                        <audio controls class="audio_card">
+                            <source src="audio/wrestling.mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="FivethGroup">
+        <div class="cards">
+            <div class="card_inner" id="cow">
+                <div class="card_face card_face--front">
+                    <h1>Кликни</h1>
+                    <img src="pictures/swimming.png" class="card_pic">
+                </div>
+                <div class="card_face card_face--back">
+                    <div class="card_content">
+                        <h1 class="translation">Пливање</h1>
+                        <h1 class="word">Swimming</h1>
+                        <audio controls class="audio_card">
+                            <source src="audio/swimming.mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card_inner" id="monkey">
+                <div class="card_face card_face--front">
+                    <h1>Кликни</h1>
+                    <img src="pictures/skiing.png" class="card_pic">
+                </div>
+                <div class="card_face card_face--back">
+                    <div class="card_content">
+                        <h1 class="translation">Скијање</h1>
+                        <h1 class="word">Skiing</h1>
+                        <audio controls class="audio_card">
+                            <source src="audio/skiing.mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card_inner" id="turtle">
+                <div class="card_face card_face--front">
+                    <h1>Кликни</h1>
+                    <img src="pictures/surfing.png "  class="card_pic" >
+                </div>
+                <div class="card_face card_face--back">
+                    <div class="card_content">
+                        <h1 class="translation">Сурфање</h1>
+                        <h1 class="word">Surfing</h1>
+                        <audio controls class="audio_card">
+                            <source src="audio/surfing.mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+
+<div class="questionKnowledge">
+    <h1>Дали добро ги запомнивте поимите?</h1>
+    <button class="yes" onclick="yesEvent()">Да</button>
+    <button class="no" onclick="noEvent()">Не</button>
+</div>
+
+<section class="quiz">
+    <div class="rules">
+        <div class="ruleTitle"><h1 >Правила за квизот:</h1></div>
+        <h1>1. Ќе имате само <span>15 секунди </span> за секое прашање.</h1>
+        <h1>2. Кога ќе го одберете одговорот, не можете да се премислите.</h1>
+        <h1>3. Не можете да го исклучите квизот и да се вратите назад.</h1>
+        <h1>4.Поените ќе ги добиете врз база на точните одговори.</h1>
+        <button class="start" onclick="startQuiz()">Започни</button>
+        <button class="back" onclick="turnBack()">Врати се назад</button>
+    </div>
+</section>
+<section class="Finalquiz">
+    <div class="rules">
+        <h1 class="ruleTitle">Правила за квизот:</h1>
+        <h1>1. Ќе имате само <span>15 секунди </span> за секое прашање.</h1>
+        <h1>2. Кога ќе го одберете одговорот, не можете да се премислите.</h1>
+        <h1>3. Не можете да го исклучите квизот и да се вратите назад.</h1>
+        <h1>4.Поените ќе ги добиете врз база на точните одговори.</h1>
+        <button class="start" onclick="startQuiz()">Започни</button>
+        <button class="back" onclick="turnBack()">Врати се назад</button>
+    </div>
+</section>
+
+<section class="miniQuiz" id="firstQuest">
+    <div class="questions">
+        <header>
+            <div class="questionQuiz"><!--<span>Преведи на македонски: dog</span>--></div>
+            <div class="timer">
+                <div class="timerText">Преостанато време</div>
+                <div class="timerSec">15</div>
+            </div>
+        </header>
+        <section>
+            <div class="optionList">
+                <!-- <div class="option">
+                   <span>Мачка</span>
+                   <div class="icon cross"><ion-icon name="close"></ion-icon></div>
+
+                 </div>
+               </div>
+               <div class="optionList">
+                 <div class="option">
+                   <span>Куче</span>
+                   <div class="icon tick"><ion-icon name="checkmark"></ion-icon></div>
+                 </div>
+               </div>
+               <div class="optionList">
+                 <div class="option">
+                   <span>Meчка</span>
+                 </div>
+               </div>
+               <div class="optionList">
+                 <div class="option">
+                   <span>Прасе</span>
+                 </div>
+                  -->
+            </div>
+
+        </section>
+        <footer>
+            <div class="totalQuestions">
+                <span><p>1</p>oд<p>3</p> Прашања </span>
+            </div>
+            <button class="nextQuestion" >Следно прашање</button>
+        </footer>
+    </div>
+</section>
+
+
+<section class="results">
+    <div class="header">
+        <img src="pictures/gameOver.png">
+    </div>
+    <div class="bodyBox">
+        <div class="totalPoints"> Честитки на освоените  <span>1</span>/3 поени</div>
+        <button onclick="BackToCourse()" >Врати се на курсот</button>
+    </div>
+</section>
+<script  type="text/javascript" src="main.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
